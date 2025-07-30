@@ -1,4 +1,4 @@
-package org.bigear.api.bigearbackend.users.model;
+package org.bigear.api.bigearbackend.users;
 
 import jakarta.persistence.*;
 import lombok.Getter;

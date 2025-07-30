@@ -1,8 +1,7 @@
 // src/main/java/org/bigear/api/bigearbackend/reviews/controller/ReviewController.java
-package org.bigear.api.bigearbackend.reviews.controller;
+package org.bigear.api.bigearbackend.reviews;
 
 import org.bigear.api.bigearbackend.dto.ReviewDTO; // IMPORT THE NEW DTO PACKAGE
-import org.bigear.api.bigearbackend.reviews.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

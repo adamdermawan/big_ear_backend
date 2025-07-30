@@ -1,6 +1,5 @@
-package org.bigear.api.bigearbackend.items.repository;
+package org.bigear.api.bigearbackend.items;
 
-import org.bigear.api.bigearbackend.items.model.SpringBedItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

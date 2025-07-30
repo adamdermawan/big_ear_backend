@@ -1,7 +1,5 @@
-package org.bigear.api.bigearbackend.users.controller;
+package org.bigear.api.bigearbackend.users;
 
-import org.bigear.api.bigearbackend.users.model.User;
-import org.bigear.api.bigearbackend.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

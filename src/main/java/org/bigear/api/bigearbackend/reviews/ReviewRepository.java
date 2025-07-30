@@ -1,6 +1,5 @@
-package org.bigear.api.bigearbackend.reviews.repository;
+package org.bigear.api.bigearbackend.reviews;
 
-import org.bigear.api.bigearbackend.reviews.model.Review;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

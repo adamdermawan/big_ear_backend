@@ -1,9 +1,7 @@
 // src/main/java/org/bigear/api/bigearbackend/items/service/SpringBedItemService.java
-package org.bigear.api.bigearbackend.items.service;
+package org.bigear.api.bigearbackend.items;
 
-import org.bigear.api.bigearbackend.items.model.SpringBedItem;
-import org.bigear.api.bigearbackend.items.repository.SpringBedItemRepository;
-import org.bigear.api.bigearbackend.reviews.model.Review; // Needed for the 'Review' entity
+import org.bigear.api.bigearbackend.reviews.Review; // Needed for the 'Review' entity
 import org.bigear.api.bigearbackend.dto.SpringBedItemDTO; // IMPORT SpringBedItemDTO
 import org.bigear.api.bigearbackend.dto.ReviewDTO; // IMPORT ReviewDTO
 import org.springframework.beans.factory.annotation.Autowired;

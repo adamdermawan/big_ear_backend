@@ -1,8 +1,7 @@
 // src/main/java/org/bigear/api/bigearbackend/items/controller/SpringBedItemController.java
-package org.bigear.api.bigearbackend.items.controller;
+package org.bigear.api.bigearbackend.items;
 
 import org.bigear.api.bigearbackend.dto.SpringBedItemDTO; // IMPORT SpringBedItemDTO
-import org.bigear.api.bigearbackend.items.service.SpringBedItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

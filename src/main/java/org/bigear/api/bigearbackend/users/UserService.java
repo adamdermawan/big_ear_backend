@@ -1,7 +1,5 @@
-package org.bigear.api.bigearbackend.users.service;
+package org.bigear.api.bigearbackend.users;
 
-import org.bigear.api.bigearbackend.users.model.User;
-import org.bigear.api.bigearbackend.users.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

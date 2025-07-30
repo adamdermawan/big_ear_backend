@@ -1,6 +1,6 @@
-package org.bigear.api.bigearbackend.items.model;
+package org.bigear.api.bigearbackend.items;
 
-import org.bigear.api.bigearbackend.reviews.model.Review;
+import org.bigear.api.bigearbackend.reviews.Review;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

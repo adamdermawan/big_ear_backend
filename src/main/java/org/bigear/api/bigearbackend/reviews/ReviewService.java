@@ -1,8 +1,6 @@
 // src/main/java/org/bigear/api/bigearbackend/reviews/service/ReviewService.java
-package org.bigear.api.bigearbackend.reviews.service;
+package org.bigear.api.bigearbackend.reviews;
 
-import org.bigear.api.bigearbackend.reviews.model.Review;
-import org.bigear.api.bigearbackend.reviews.repository.ReviewRepository;
 import org.bigear.api.bigearbackend.dto.ReviewDTO; // IMPORT THE NEW DTO PACKAGE
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

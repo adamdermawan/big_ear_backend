@@ -1,6 +1,5 @@
-package org.bigear.api.bigearbackend.users.repository;
+package org.bigear.api.bigearbackend.users;
 
-import org.bigear.api.bigearbackend.users.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

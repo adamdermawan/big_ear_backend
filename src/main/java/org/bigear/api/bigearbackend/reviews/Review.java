@@ -1,7 +1,7 @@
-package org.bigear.api.bigearbackend.reviews.model;
+package org.bigear.api.bigearbackend.reviews;
 
-import org.bigear.api.bigearbackend.items.model.SpringBedItem; // Updated import
-import org.bigear.api.bigearbackend.users.model.User;
+import org.bigear.api.bigearbackend.items.SpringBedItem; // Updated import
+import org.bigear.api.bigearbackend.users.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
