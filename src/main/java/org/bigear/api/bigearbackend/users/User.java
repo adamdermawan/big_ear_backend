@@ -22,5 +22,8 @@ public class User {
 
     @Column(nullable = false)
     private String name;
+
+    @Column(nullable = false) // 👈 Add this field
+    private String password;
 }
 
