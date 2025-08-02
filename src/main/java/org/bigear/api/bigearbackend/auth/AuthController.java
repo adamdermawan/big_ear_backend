@@ -165,7 +165,7 @@ public class AuthController {
         }
     }
 
-    // NEW: Update user profile (name and email) - AUTHENTICATED ENDPOINT
+    // NEW: Update user profile (name only) - AUTHENTICATED ENDPOINT
     @PutMapping("/profile")
     public ResponseEntity<?> updateProfile(@RequestBody UpdateProfileRequest updateRequest) {
         try {
@@ -184,23 +184,9 @@ public class AuthController {
             if (updateRequest.name() == null || updateRequest.name().trim().isEmpty()) {
                 return ResponseEntity.badRequest().body(createErrorResponse("Name is required"));
             }
-            if (updateRequest.email() == null || updateRequest.email().trim().isEmpty()) {
-                return ResponseEntity.badRequest().body(createErrorResponse("Email is required"));
-            }
 
-            String newEmail = updateRequest.email().trim().toLowerCase();
-
-            // Check if the new email is already taken by another user
-            if (!newEmail.equals(currentUserEmail)) {
-                if (userService.getUserByEmail(newEmail).isPresent()) {
-                    return ResponseEntity.status(HttpStatus.CONFLICT)
-                            .body(createErrorResponse("Email is already taken"));
-                }
-            }
-
-            // Update user
+            // Update only the name, keep email unchanged
             user.setName(updateRequest.name().trim());
-            user.setEmail(newEmail);
             User updatedUser = userService.saveUser(user);
 
             System.out.println("✅ Profile updated for user: " + updatedUser.getEmail());
